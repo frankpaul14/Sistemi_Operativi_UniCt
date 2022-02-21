@@ -70,6 +70,8 @@ int main(int argc, char* argv[]){ // durante la compilazione bisogna passare il 
     }
     printf("\n");
     printf("I file sono stati copiati con successo\n");
-        
+    
+    close(fd); // chiusura file aperto
+    close(fd1); //chiusura file aperto
 
 }
